@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      database: reactive-api
+      host: mongodb
+server:
+  port: 8080

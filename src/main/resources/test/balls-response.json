@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "brand": "Umbro",
+    "sport": "Soccer",
+    "price": 24.99,
+    "colour": "Black"
+  },
+  {
+    "id": 2,
+    "brand": "Adidas",
+    "sport": "Basketball",
+    "price": 35.99,
+    "colour": "Orange"
+  },
+  {
+    "id": 3,
+    "brand": "Nike",
+    "sport": "Handball",
+    "price": 15.99,
+    "colour": "White"
+  }
+]

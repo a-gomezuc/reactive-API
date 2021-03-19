@@ -1,0 +1,21 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    volumes:
+      - reactive-volume:/data/db
+    networks:
+      - private-network
+  reactive-api:
+    build: .
+    container_name: reactive-api
+    networks:
+      - private-network
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongodb
+networks:
+  private-network:
+volumes:
+  reactive-volume:
